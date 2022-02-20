@@ -1,0 +1,75 @@
+{ "tiers": [
+    {
+    "name": "oper1-app",
+    "te_tests": [ "DVS-DVS" ],
+    "lm_group": "oper1",
+    "lm_node": "oper1-app",
+    "statusio": "6211e1154cbc11052e5742a5",
+    "statusio_container": "6211e1154cbc11052e5742a4",
+    "statusio_container_infra": "6212ba7b0c58d00534408f58"
+  },
+    {
+    "name": "oper1-te",
+    "te_tests": [ "DVS-DVS" ],
+    "lm_group": "oper1",
+    "lm_node": "oper1-te",
+    "statusio": "6211e328ed6335053034e16e",
+    "statusio_container": "6211e1154cbc11052e5742a4",
+    "statusio_container_infra": "6212ba7b0c58d00534408f58"
+  },
+    {
+    "name": "oper1-vcenter",
+    "te_tests": [ "DVS-Rockridge" ],
+    "lm_group": "oper1",
+    "lm_node": "",
+    "statusio": "6211e333c6a9830534d37956",
+    "statusio_container": "6211e286fedb2205312088ec",
+    "statusio_container_infra": "6212bafd3625a5052e32a296"
+  },
+    {
+    "name": "oper1-intersight",
+    "te_tests": [ "DVS-DVS" ],
+    "lm_group": "oper1",
+    "lm_node": "oper1-intersight",
+    "statusio": "6211e3458771c2053af572c5",
+    "statusio_container": "6211e1154cbc11052e5742a4",
+    "statusio_container_infra": "6212ba7b0c58d00534408f58"
+  },
+  {
+    "name": "oper1-servicenow",
+    "te_tests": [ "DVS-Chaska" ],
+    "lm_group": "oper1",
+    "lm_node": "oper1-servicenow",
+    "statusio": "6211e3529d2ec2053af28551",
+    "statusio_container": "6211e2ae5a8bfc0538d43998",
+    "statusio_container_infra": "6212bb299d2ec2053af2858e"
+  },
+  {
+    "name": "oper1-diagram",
+    "te_tests": [ "DVS-DVS" ],
+    "lm_group": "oper1",
+    "lm_node": "oper1-diagram",
+    "statusio": "6211e35ea0a0a9052db881fc",
+    "statusio_container": "6211e1154cbc11052e5742a4",
+    "statusio_container_infra": "6212ba7b0c58d00534408f58"
+  },
+  {
+    "name": "oper1-environ",
+    "te_tests": [ "DVS-Vernonhills" ],
+    "lm_group": "oper1",
+    "sl_group": "oper1-environ",
+    "statusio": "6211e36d7403e20532ab82fc",
+    "statusio_container": "6211e2d6c6a9830534d37955",
+    "statusio_container_infra": "6212bb4e7403e20532ab8318"
+  },
+  {
+    "name": "oper1-appd",
+    "te_tests": [ "DVS-DVS" ],
+    "lm_group": "oper1",
+    "lm_node": "oper1-appd",
+    "statusio": "6211e37a4e5458052f3bc474",
+    "statusio_container": "6211e1154cbc11052e5742a4",
+    "statusio_container_infra": "6212ba7b0c58d00534408f58"
+  }
+]
+}
